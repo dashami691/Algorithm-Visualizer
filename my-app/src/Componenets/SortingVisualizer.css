@@ -1,0 +1,73 @@
+/* src/components/SortingVisualizer.css */
+  .contain {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 50px; /* Adjust as needed */
+    font-size: larger;
+  }
+  .array-container {
+    display: flex;
+    justify-content: center;
+    align-items: flex-end;
+    border: 2px solid #495057;
+    padding: 10px;
+    margin-top: 20px; /* Adjust as needed */
+  }
+  
+  .array-bar,
+  .array-cell {
+    margin: 0 2px;
+    background-color: #c3e1ff;
+    transition: background-color 0.2s ease-in-out;
+  }
+  
+  .array-bar {
+    flex-grow: 1;
+    border-radius: 4px 4px 0 0;
+  }
+  
+  .array-cell {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 50px;
+    height: 50px;
+    border: 1px solid #495057;
+    border-radius: 4px;
+  }
+  
+  /* Highlight colors */
+  .array-bar.comparing,
+  .array-cell.comparing {
+    background-color: #FF4949;
+  }
+  
+  .array-bar.sorted,
+  .array-cell.sorted {
+    background-color: #28a745;
+  }
+  
+  .label{
+    font-size: x-large;
+  }
+
+  .input{
+    height: 35px;
+    margin: 10px;
+    font-size: large;
+  }
+
+  .button{
+    height: 40px;
+    font-size: large;
+    width: 100px;
+    margin: 20px;
+  }
+
+  .gbutton{
+    height: 40px;
+    font-size: large;
+    width: 150px;
+    margin: 20px;
+  }

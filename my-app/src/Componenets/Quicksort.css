@@ -1,0 +1,71 @@
+.container{
+    margin: 50px;
+    background-color: rgb(255, 255, 255);
+    height: 50%px;
+    width: 50%px;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    /* text-align: justify; */
+}
+
+.define{
+    font-size: large;
+    margin: 40px;
+}
+
+.working{
+    margin: 40px;
+    text-align: justify;
+    font-size: large;
+    line-height: 1.8;
+}
+.divide{
+    inline-size: 40%;
+
+}
+.algo
+{
+    text-align: left;
+    font-size: large;
+    line-height: 1.8;
+    margin: 50px;
+    background-color: rgb(255, 255, 255);
+    height: 50%px;
+    width: 50%px;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    image-orientation: 0deg;
+}
+
+.tab {
+    overflow: hidden;
+    border: 1px solid #ccc;
+    background-color: #f1f1f1;
+  }
+  
+  /* Style the buttons that are used to open the tab content */
+  .tab button {
+    background-color: inherit;
+    float: left;
+    border: none;
+    outline: none;
+    cursor: pointer;
+    padding: 14px 16px;
+    transition: 0.3s;
+  }
+  
+  /* Change background color of buttons on hover */
+  .tab button:hover {
+    background-color: #ddd;
+  }
+  
+  /* Create an active/current tablink class */
+  .tab button.active {
+    background-color: #ccc;
+  }
+  
+  /* Style the tab content */
+  .tabcontent {
+    display: none;
+    padding: 6px 12px;
+    border: 1px solid #ccc;
+    border-top: none;
+  }

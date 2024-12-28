@@ -1,0 +1,18 @@
+/* src/components/ToggleButtons.css */
+.toggle-buttons-container {
+    display: flex;
+  }
+  
+  .toggle-button {
+    padding: 10px;
+    margin: 5px;
+    background-color: #ddd;
+    border: 1px solid #ccc;
+    cursor: pointer;
+  }
+  
+  .toggle-button.active {
+    background-color: #3498db;
+    color: #fff;
+  }
+  
